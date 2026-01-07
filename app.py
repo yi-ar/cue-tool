@@ -22,7 +22,7 @@ cue_type = st.radio("球杆类型", ["小头杆", "大头杆"], horizontal=True)
 mat_default_index = 0 if cue_type == "小头杆" else 1
 
 # --- 品牌输入逻辑改进 ---
-brand_list = ["野豹", "皮尔力", "美兹", "美洲豹", "天工", "威利", "奥斯本兹", "奥秘", "LP", "其他（手动输入）"]
+brand_list = ["野豹", "皮尔力", "美兹", "美洲豹", "天工", "威利", "奥斯本兹", "南匠",  "其他（手动输入）"]
 col_b1, col_b2 = st.columns([1, 1])
 
 with col_b1:
